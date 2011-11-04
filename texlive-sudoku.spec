@@ -57,6 +57,7 @@ to print them from there if you have this package installed.
 #- source
 %doc %{_texmfdistdir}/source/latex/sudoku/sudoku.dtx
 %doc %{_texmfdistdir}/source/latex/sudoku/sudoku.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -67,3 +68,5 @@ to print them from there if you have this package installed.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
