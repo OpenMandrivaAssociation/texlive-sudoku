@@ -1,6 +1,6 @@
 Name:		texlive-sudoku
-Version:	15878
-Release:	2
+Version:	67189
+Release:	1
 Summary:	Create sudoku grids
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/sudoku
