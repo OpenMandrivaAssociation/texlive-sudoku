@@ -3,7 +3,7 @@ Version:	67189
 Release:	1
 Summary:	Create sudoku grids
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/sudoku
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/sudoku
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/sudoku.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/sudoku.doc.r%{version}.tar.xz
